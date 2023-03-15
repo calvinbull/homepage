@@ -17,7 +17,7 @@
 
     .bg1 {
     /* The image used */
-    background-image: url("images-assets.nasa.gov/image/carina_nebula/carina_nebula~orig.png");
+    background-image: url("https://images-assets.nasa.gov/image/carina_nebula/carina_nebula~orig.png");
 
     /* Full height */
     height: 100%;
