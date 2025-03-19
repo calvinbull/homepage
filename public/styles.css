@@ -1,56 +1,50 @@
 #navbar {
-    background-color: rgba(180, 183, 187, 0.75);
+        background-color: rgba(180, 183, 187, 0.75);
     }
 
     a {
-    color: white;
-    text-decoration:none;
-    border:none;
+        color: inherit;
+        text-decoration:none;
+        border:none;
+    }
+    a:hover {
+        color: #ccc; /* Lighter hover effect */
     }
 
     .flex-wrapper {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-    justify-content: space-between;
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+        justify-content: space-between;
     }
 
     .bg1 {
-    /* The image used */
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/homepage-f97fd.appspot.com/o/nasa_bg.jpg?alt=media&token=b6a470e0-568b-41ca-80e5-c69e58df6db9);
+        /* The image used */
+        background-image: url(https://firebasestorage.googleapis.com/v0/b/homepage-f97fd.appspot.com/o/nasa_bg.webp?alt=media&token=https://firebasestorage.googleapis.com/v0/b/homepage-f97fd.appspot.com/o/nasa_bg.webp?alt=media&token=1c0e78f8-1c3b-400d-80fe-92a8e0043bc7);
+        min-height: 100vh; /* Ensures full viewport coverage */
 
-    /* Secondary */
-    /* background-image: url(https://firebasestorage.googleapis.com/v0/b/homepage-f97fd.appspot.com/o/Dall-E%202023-03-24%2003.png?alt=media&token=c9d7bfe9-d675-4117-94de-252752abbab3); */
-    /* background-image: url(https://firebasestorage.googleapis.com/v0/b/homepage-f97fd.appspot.com/o/Dall-E%202023-03-24%2013.png?alt=media&token=45156652-6c33-4fd0-9a90-61d00d740ce4); */
-    /* background-image: url(https://firebasestorage.googleapis.com/v0/b/homepage-f97fd.appspot.com/o/Dall-E%202023-03-24%2002.png?alt=media&token=f2972ad4-d511-4f3c-ab8f-522bc2ff5e81); */
-    /* background-image: url(https://firebasestorage.googleapis.com/v0/b/homepage-f97fd.appspot.com/o/Dall-E%202023-03-24%2007.png?alt=media&token=c27ad932-6dd0-4164-b7f7-e7c44d163108); */
-    /* background-image: url(https://firebasestorage.googleapis.com/v0/b/homepage-f97fd.appspot.com/o/Dall-E%202023-03-24%2012.png?alt=media&token=fbf6764d-7ad7-41d0-9d92-9194a0f5742d); */
-    /* background-image: url(https://firebasestorage.googleapis.com/v0/b/homepage-f97fd.appspot.com/o/Dall-E%202023-03-24%2015.png?alt=media&token=3055f7da-2eaa-4f72-aeb6-1abc199d8551); */
-    /* background-image: url(https://firebasestorage.googleapis.com/v0/b/homepage-f97fd.appspot.com/o/Dall-E%202023-03-24%2018.png?alt=media&token=24328a8c-67d1-4b63-a74c-689bacecdfc4); */
-
-    /* Lesser */
-    /* background-image: url(https://firebasestorage.googleapis.com/v0/b/homepage-f97fd.appspot.com/o/Dall-E%202023-03-24%2001.png?alt=media&token=ec39f0b7-c925-4171-bddd-b059dbf57428); */
-    /* background-image: url(https://firebasestorage.googleapis.com/v0/b/homepage-f97fd.appspot.com/o/Dall-E%202023-03-24%2004.png?alt=media&token=196d88c1-7017-4c6d-9198-fe9badd934ae); */
-    /* background-image: url(https://firebasestorage.googleapis.com/v0/b/homepage-f97fd.appspot.com/o/Dall-E%202023-03-24%2008.png?alt=media&token=385bdaf4-1e21-40f3-85d0-e61b8448c171); */
-    /* background-image: url(https://firebasestorage.googleapis.com/v0/b/homepage-f97fd.appspot.com/o/Dall-E%202023-03-24%2010.png?alt=media&token=26450291-37d2-4d47-b3ed-fd5e8749551a); */
-    /* background-image: url(https://firebasestorage.googleapis.com/v0/b/homepage-f97fd.appspot.com/o/Dall-E%202023-03-24%2011.png?alt=media&token=35d24488-29b8-44e6-a2c6-6a752c551403); */
-    /* background-image: url(https://firebasestorage.googleapis.com/v0/b/homepage-f97fd.appspot.com/o/Dall-E%202023-03-24%2017.png?alt=media&token=8d141300-f7d8-4c46-a48c-6d9edcf59b77); */
-        
-    /* Full height */
-    height: 100%;
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .responsive {
-    max-width: 100%;
-    height: auto;
+        max-width: 100%;
+        height: auto;
     }
 
     .about {
-    background-color: rgba(0, 0, 0, 0.75);
-    margin: 40px;
+        background-color: rgba(0, 0, 0, 0.75);
+        margin: 5vw; /* More flexible spacing */
+        padding: 20px;
+        border-radius: 10px;
     }
+
+    @media (max-width: 768px) {
+        .footer-container {
+            flex-direction: column;
+            text-align: center;
+        }
+    }
+    
