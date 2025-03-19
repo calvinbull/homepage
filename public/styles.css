@@ -20,7 +20,7 @@
 
     .bg1 {
         /* The image used */
-        background-image: url(https://firebasestorage.googleapis.com/v0/b/homepage-f97fd.appspot.com/o/nasa_bg.webp?alt=media&token=https://firebasestorage.googleapis.com/v0/b/homepage-f97fd.appspot.com/o/nasa_bg.webp?alt=media&token=1c0e78f8-1c3b-400d-80fe-92a8e0043bc7);
+        background-image: url(https://firebasestorage.googleapis.com/v0/b/homepage-f97fd.appspot.com/o/nasa_bg.webp?alt=media&token=1c0e78f8-1c3b-400d-80fe-92a8e0043bc7);
         min-height: 100vh; /* Ensures full viewport coverage */
 
         /* Center and scale the image nicely */
